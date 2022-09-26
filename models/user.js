@@ -3,7 +3,7 @@
 const sequelize = require("./database");
 const S = require("sequelize");
 
-class User extends S.Model {}
+class User extends S.Model { }
 
 User.init({ name: S.STRING }, { sequelize, modelName: "user" });
 
