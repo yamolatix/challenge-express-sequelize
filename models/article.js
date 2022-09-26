@@ -7,7 +7,7 @@ const S = require("sequelize");
 
 const User = require("./user");
 
-//---------VVVV---------  tu código aquí abajo  ---------VVV----------
+//---------VVV---------  tu código aquí abajo  ---------VVV----------
 
 class Article extends S.Model { }
 
